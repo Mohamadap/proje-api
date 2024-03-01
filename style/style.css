@@ -43,5 +43,8 @@ height: 30px;
 .pos{
     position: absolute;
     left: 12%;
-    top: -15%;
+    top: -13%;
+}
+.radius{
+    border-radius: 20px;
 }
