@@ -36,3 +36,12 @@ height: 30px;
 .telegram{
     background-color: #37aee2;
 }
+.w-img{
+    width: 300px;
+    height: 400px;
+}
+.pos{
+    position: absolute;
+    left: 12%;
+    top: -15%;
+}
