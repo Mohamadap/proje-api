@@ -1,5 +1,8 @@
 .width{
-width: 1200px;
+width: 100%;
+}
+.h-ul{
+    height: 50px;
 }
 input{
    border: solid rgb(211, 211, 221) 2px;
@@ -10,4 +13,26 @@ input:focus{
 input::placeholder {
  
    padding: 15px;
+}
+ul li a{
+    text-decoration: none;
+}
+body{
+    background-color: beige;
+}
+.icon-header{
+width: 30px;
+height: 30px;
+}
+.facebock{
+    background-color: #365493;
+}
+.youtube{
+    background-color: #cb2037;
+}
+.linkdin{
+    background-color: #0274b3;
+}
+.telegram{
+    background-color: #37aee2;
 }
