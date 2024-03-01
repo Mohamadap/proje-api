@@ -1,0 +1,13 @@
+.width{
+width: 1200px;
+}
+input{
+   border: solid rgb(211, 211, 221) 2px;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder {
+ 
+   padding: 15px;
+}
