@@ -169,7 +169,7 @@ $(document).ready(function(){
                     url: productUrl,
                     type: 'GET',
                     success: function(products) {
-                        let productList = '<div class="container-fluid"> <div class="row">'; 
+                        let productList = '<div class="container-fluid bg-white"> <div class="row">'; 
                         $.each(products, function(index, product) {
                             productList += '<div class=" col-lg-2 height-category" >';
                             productList += '<h6>' + product.title + '</h6>';
