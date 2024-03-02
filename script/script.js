@@ -1,6 +1,4 @@
 $(document).ready(function(){
-    let newheader  = document.querySelector('.hed');
-    console.log(newheader)
     // product
     $.ajax({
         url: "https://fakestoreapi.com/products",
@@ -144,7 +142,9 @@ $(document).ready(function(){
         success: function(categories) {
             let $categoriesList = $('#categoriesList');
             $.each(categories, function(index, category) {
-                $categoriesList.append('<a class="category-item d-flex flex-column " data-category="' + category + '">' + category + '</a>');
+                
+                $categoriesList.append('<li><a class="dropdown-item category-item d-flex flex-column " data-category="' + category + '">' + category + '</a></li>');
+            
             });
 
             $('.category-item').click(function() {
@@ -159,6 +159,7 @@ $(document).ready(function(){
                  ' <link rel="stylesheet" href="style/style.css" />'+
                  '<title>محصولات - ' + category + '</title></head>'+  
                  '<body>'+
+                 
                  '</body>'+
                  '</html>'
                  

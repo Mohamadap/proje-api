@@ -70,6 +70,6 @@ height: 200px;
 .h-pr{
     background-color: beige;
 }
-.img-fluid{
-    background-image: none !important
+.categoriesList{
+    cursor: pointer;
 }
