@@ -6,6 +6,7 @@
     <title>shopping web</title>
     <link rel="stylesheet" href="style/bootstrap.rtl.css" />
     <link rel="stylesheet" href="style/style.css" />
+    
   </head>
   <body>
     <section>
@@ -36,23 +37,36 @@
             <div class="row d-flex align-items-center">
                 <div class="col-lg-12 d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-center">
-                        <ul class="list-unstyled d-flex align-items-center mt-2 ">
-                            <li>
-                                <a class="m-2 text-black" href="#">منو</a>
-                            </li>
-                            <li>
-                                <a class="m-2 text-black" href="#">فروشگاه</a>
-                            </li>
-                            <li>
-                                <a class="m-2 text-black" href="#">شگفت انگیزها</a>
-                            </li>
-                            <li>
-                                <a class="m-2 text-black" href="#">تماس باما</a>
-                            </li>
-                            <li>
-                                <a class="m-2 text-black" href="#">درباره ما</a>
-                            </li>
-                        </ul>
+                        <nav class="navbar navbar-expand-lg navbar-dark ">
+                            <div class="container">
+                                <a class="navbar-brand text-black" href="#">منوی اصلی</a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-black" href="#">درباره ما</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-black" href="#prodecrs">محصولات</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                دسته بندی‌ها
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item text-black" href="#">الکترونیک</a>
+                                                <a class="dropdown-item text-black" href="#">پوشاک</a>
+                                                <div class="dropdown-divider text-black"></div>
+                                                <a class="dropdown-item text-black" href="#">کالای دیگر</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    
                     </div>
                     <div class="mt-2">
                             <ul class="list-unstyled d-flex">
@@ -71,11 +85,8 @@
                                 <li class="bg-primary rounded-pill me-1 ">
                                     <a class="icon-header text-white d-flex align-items-center justify-content-center" href=""><i class="fa-brands fa-discord"></i></a>
                                 </li>
-                            </ul>
-                            
-                            
+                            </ul>  
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -162,24 +173,22 @@
 
 
     <section class="mt-5 bg-white">
-        <h3 class="text-center p-5">محصولات</h3>
-        <div class="container-fluid">
-            <div id="prod" class="row">
+        <h3 id="prodecrs" class="text-center p-5">محصولات</h3>
+        <div  class="container-fluid">
+            <div id="prod" class="row d-flex align-items-center justify-content-center">
+
             </div>
-          
         </div>
+    </section>
+    <section>
+        <ul id="categoriesList"></ul>
     </section>
    
     <br><br><br><br><br><br><br><br><br><br>
    
     <script src="script/jquery-3.7.1.js"></script>
     <script src="script/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="crossorigin="anonymous"referrerpolicy="no-referrer"
     />
   </body>
 </html>

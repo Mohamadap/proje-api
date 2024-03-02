@@ -49,8 +49,8 @@ height: 30px;
     border-radius: 20px;
 }
 .product-img{
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     cursor: pointer;
 }
 .pr{
@@ -59,4 +59,17 @@ height: 30px;
 }
 .c{
     background-color: #777777;
+}
+.img-category{
+width: 200px;
+height: 200px;
+}
+.h-product{
+    height: 350px;
+}
+.h-pr{
+    background-color: beige;
+}
+.img-fluid{
+    background-image: none !important
 }
