@@ -48,3 +48,15 @@ height: 30px;
 .radius{
     border-radius: 20px;
 }
+.product-img{
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+.pr{
+    height: 300px;
+    
+}
+.c{
+    background-color: #777777;
+}
